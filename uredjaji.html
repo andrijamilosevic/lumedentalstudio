@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="design_doc_mode" content="canvas">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600&family=Geist:wght@400;500&display=swap" rel="stylesheet">
+<style>body{margin:0;background:#E9E4DB;font-family:'Geist',system-ui,sans-serif;color:#1C1B19}a{color:#1C1B19}a:hover{color:#3F6B69}</style>
+</helmet>
+<div style="padding:64px;display:flex;flex-direction:column;gap:40px;width:max-content">
+  <div style="display:flex;flex-direction:column;gap:8px">
+    <span style="font-family:'Manrope',sans-serif;font-weight:600;font-size:28px;letter-spacing:-0.02em">LUMÉ Dental Studio — desktop i telefon</span>
+    <span style="font-size:15px;color:#4A463F">Oba prikaza su živa — možete skrolovati i klikati.</span>
+  </div>
+  <div style="display:flex;gap:64px;align-items:flex-start">
+    <div style="display:flex;flex-direction:column;gap:14px">
+      <span style="font-size:13px;letter-spacing:0.14em;text-transform:uppercase;color:#6B665E;font-weight:600">Desktop · 1440 × 900</span>
+      <div style="width:1440px;border-radius:14px;overflow:hidden;background:#FFFFFF;box-shadow:0 30px 60px -30px rgba(28,27,25,0.35);border:1px solid #D9D2C6">
+        <div style="height:40px;background:#F3F0EA;border-bottom:1px solid #E4DED4;display:flex;align-items:center;gap:8px;padding:0 16px">
+          <span style="width:12px;height:12px;border-radius:50%;background:#E0796B"></span>
+          <span style="width:12px;height:12px;border-radius:50%;background:#E8C267"></span>
+          <span style="width:12px;height:12px;border-radius:50%;background:#7FBF7A"></span>
+          <span style="margin-left:16px;flex:1;max-width:420px;height:24px;border-radius:6px;background:#FFFFFF;border:1px solid #E4DED4;font-size:12px;color:#6B665E;display:flex;align-items:center;padding:0 12px">lumedental.rs</span>
+        </div>
+        <iframe title="Desktop prikaz" src="./index.html" style="display:block;width:1440px;height:900px;border:0"></iframe>
+      </div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:14px">
+      <span style="font-size:13px;letter-spacing:0.14em;text-transform:uppercase;color:#6B665E;font-weight:600">Telefon · 390 × 844</span>
+      <div style="box-sizing:border-box;width:418px;height:872px;border-radius:60px;background:#1C1B19;padding:14px;box-shadow:0 30px 60px -30px rgba(28,27,25,0.45)">
+        <div style="position:relative;width:390px;height:844px;border-radius:44px;overflow:hidden;background:#F6F3EE">
+                    <iframe title="Mobilni prikaz" src="./index.html" scrolling="yes" style="display:block;width:390px;height:844px;border:0"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>
